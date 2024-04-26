@@ -1,4 +1,7 @@
 //slider
+slidermain()
+function slidermain()
+{
 let slidebutton = document.querySelectorAll('.slidebaritem')
 let x = 0
 function slider(){
@@ -28,3 +31,20 @@ slidebutton.forEach((el,i)=>{
         
     })
 })
+}
+//addeventbook
+evenbook()
+function evenbook(){
+    let bookbutton = document.querySelector('.header_items_right').querySelector('.box')
+    bookbutton.addEventListener('click',()=>{
+        window.location.href = "book.html"
+    })
+}
+//clickdanhnhap
+function login(){
+    document.querySelector("#login").addEventListener("click",()=>{
+        window.location.href = "login.html"
+        console.log("asDASFA")
+    })
+}
+login()

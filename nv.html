@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link rel="stylesheet" href="nv.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <img src="https://static03-cdn.oneinventory.com/images/2022/07/dbe30a0bf14b4a67b38f09991e25aa23.png" alt="">
+            </div>
+            <div class="textheader">Nhân Viên</div>
+            <div class="line"></div>
+            <div class="listroom">Listroom</div>
+            <div class="book">Đặt Phòng</div>
+            
+        </div>
+        <div class="main">
+            <div class="confirm">
+                <div class="confirm_text">
+                Xác nhận đã thanh toán 1 củ?
+                </div>
+                <div class="confirm_button">
+                    <div class="confirm_button_ok">
+                        Xác nhận
+                    </div>
+                    <div class="confirm_button_cancel">
+                        Hủy
+                    </div>
+                </div>
+            </div>
+            <div class="background"></div>
+            <div class="main_listroom">
+                <div class="main_listroom_header">
+                    <div class="main_listroom_header_item choice">Tầng 1</div>
+                    <div class="main_listroom_header_item">Tầng 2</div>
+                    <div class="main_listroom_header_item">Tầng 3</div>
+                    <div class="main_listroom_header_item">Tầng 4</div>
+                </div>
+                <div class="main_listroom_line"></div>
+                <div class="main_listroom_items">
+                    <div class="main_listroom_items_1">
+                        <div class="main_listroom_item" >
+                            <div class="main_listroom_item_header">
+                                <div class="main_listroom_item_header_text">Phòng 101</div>
+                                <div class="main_listroom_item_header_icon" >
+                                    <i class="fa-regular fa-pen-to-square"></i>
+                                    <i class="fa-solid fa-trash"></i>
+                                </div>
+                            </div>
+                            <div class="main_listroom_item_Name">Nguyễn Duy Hải</div>
+                            <div class="CCCD">CCCD: 042204001006</div>
+                            <div class="main_listroom_item_line"></div>
+                            <div class="main_listroom_item_status">Phòng Sẵn Sàng</div>
+                            
+                            <div class="main_listroom_item_check">
+                                <div class="main_listroom_item_checkin">
+                                <i class="fa-regular fa-clock"></i>
+                                    Ngày nhận phòng: 2004-10-26
+                                </div>
+                                <div class="main_listroom_item_checkout">
+                                <i class="fa-regular fa-clock"></i>
+                                        Ngày trả phòng: 2004-10-30
+                                </div>
+                            </div>
+                            <div class="main_listroom_item_timecheckin">Thời gian nhận phòng :10h25p</div>
+                            <div class="main_listroom_item_button">
+                                <div class="main_listroom_item_button_checkin">Nhận Phòng</div>
+                                <div class="main_listroom_item_button_checkout">Trả Phòng</div>
+
+                            </div>
+                        </div>
+
+                        <div class="main_listroom_item" draggable="true">
+                            <div class="main_listroom_item_header">
+                                <div class="main_listroom_item_header_text">Phòng 102</div>
+                                <div class="main_listroom_item_header_icon" >
+                                    <i class="fa-regular fa-pen-to-square"></i>
+                                    <i class="fa-solid fa-trash"></i>
+                                </div>
+                            </div>
+                            <div class="main_listroom_item_Name">Nguyễn Duy Hải</div>
+                            <div class="CCCD">CCCD: 042204001006</div>
+                            <div class="main_listroom_item_line"></div>
+                            <div class="main_listroom_item_status">Phòng Sẵn Sàng</div>
+                            
+                            <div class="main_listroom_item_check">
+                                <div class="main_listroom_item_checkin">
+                                <i class="fa-regular fa-clock"></i>
+                                    Ngày nhận phòng: 2004-10-26
+                                </div>
+                                <div class="main_listroom_item_checkout">
+                                <i class="fa-regular fa-clock"></i>
+                                        Ngày trả phòng: 2004-10-30
+                                </div>
+                            </div>
+                            <div class="main_listroom_item_timecheckin">Thời gian nhận phòng :10h25p</div>
+                            <div class="main_listroom_item_button">
+                                <div class="main_listroom_item_button_checkin">Nhận Phòng</div>
+                                <div class="main_listroom_item_button_checkout">Trả Phòng</div>
+
+                            </div>
+                        </div>
+
+                        <div class="main_listroom_item" draggable="true">
+                            <div class="main_listroom_item_header">
+                                <div class="main_listroom_item_header_text">Phòng 103</div>
+                                <div class="main_listroom_item_header_icon" >
+                                    <i class="fa-regular fa-pen-to-square"></i>
+                                    <i class="fa-solid fa-trash"></i>
+                                </div>
+                            </div>
+                            <div class="main_listroom_item_Name">Nguyễn Duy Hải</div>
+                            <div class="CCCD">CCCD: 042204001006</div>
+                            <div class="main_listroom_item_line"></div>
+                            <div class="main_listroom_item_status">Phòng Sẵn Sàng</div>
+                            
+                            <div class="main_listroom_item_check">
+                                <div class="main_listroom_item_checkin">
+                                <i class="fa-regular fa-clock"></i>
+                                    Ngày nhận phòng: 2004-10-26
+                                </div>
+                                <div class="main_listroom_item_checkout">
+                                <i class="fa-regular fa-clock"></i>
+                                        Ngày trả phòng: 2004-10-30
+                                </div>
+                            </div>
+                            <div class="main_listroom_item_timecheckin">Thời gian nhận phòng :10h25p</div>
+                            <div class="main_listroom_item_button">
+                                <div class="main_listroom_item_button_checkin">Nhận Phòng</div>
+                                <div class="main_listroom_item_button_checkout">Trả Phòng</div>
+
+                            </div>
+                        </div>
+                        <div class="main_listroom_item" draggable="true">
+                            <div class="main_listroom_item_header">
+                                <div class="main_listroom_item_header_text">Phòng 104</div>
+                                <div class="main_listroom_item_header_icon" >
+                                    <i class="fa-regular fa-pen-to-square"></i>
+                                    <i class="fa-solid fa-trash"></i>
+                                </div>
+                            </div>
+                            <div class="main_listroom_item_Name">Nguyễn Duy Hải</div>
+                            <div class="CCCD">CCCD: 042204001006</div>
+                            <div class="main_listroom_item_line"></div>
+                            <div class="main_listroom_item_status">Phòng Sẵn Sàng</div>
+                            
+                            <div class="main_listroom_item_check">
+                                <div class="main_listroom_item_checkin">
+                                <i class="fa-regular fa-clock"></i>
+                                    Ngày nhận phòng: 2004-10-26
+                                </div>
+                                <div class="main_listroom_item_checkout">
+                                <i class="fa-regular fa-clock"></i>
+                                        Ngày trả phòng: 2004-10-30
+                                </div>
+                            </div>
+                            <div class="main_listroom_item_timecheckin">Thời gian nhận phòng :10h25p</div>
+                            <div class="main_listroom_item_button">
+                                <div class="main_listroom_item_button_checkin">Nhận Phòng</div>
+                                <div class="main_listroom_item_button_checkout">Trả Phòng</div>
+
+                            </div>
+                        </div>
+                        <div class="main_listroom_item" draggable="true">
+                            <div class="main_listroom_item_header">
+                                <div class="main_listroom_item_header_text">Phòng 105</div>
+                                <div class="main_listroom_item_header_icon" >
+                                    <i class="fa-regular fa-pen-to-square"></i>
+                                    <i class="fa-solid fa-trash"></i>
+                                </div>
+                            </div>
+                            <div class="main_listroom_item_Name">Nguyễn Duy Hải</div>
+                            <div class="CCCD">CCCD: 042204001006</div>
+                            <div class="main_listroom_item_line"></div>
+                            <div class="main_listroom_item_status">Phòng Sẵn Sàng</div>
+                            
+                            <div class="main_listroom_item_check">
+                                <div class="main_listroom_item_checkin">
+                                <i class="fa-regular fa-clock"></i>
+                                    Ngày nhận phòng: 2004-10-26
+                                </div>
+                                <div class="main_listroom_item_checkout">
+                                <i class="fa-regular fa-clock"></i>
+                                        Ngày trả phòng: 2004-10-30
+                                </div>
+                            </div>
+                            <div class="main_listroom_item_timecheckin">Thời gian nhận phòng :10h25p</div>
+                            <div class="main_listroom_item_button">
+                                <div class="main_listroom_item_button_checkin">Nhận Phòng</div>
+                                <div class="main_listroom_item_button_checkout">Trả Phòng</div>
+
+                            </div>
+                        </div>
+                    
+                    </div>
+                    <div class="main_listroom_items_2">
+                        <div class="main_listroom_item" draggable="true">
+                            <div class="main_listroom_item_header">
+                                <div class="main_listroom_item_header_text">Phòng 201</div>
+                                <div class="main_listroom_item_header_icon" >
+                                    <i class="fa-regular fa-pen-to-square"></i>
+                                    <i class="fa-solid fa-trash"></i>
+                                </div>
+                            </div>
+                            <div class="main_listroom_item_Name">Nguyễn Duy Hải</div>
+                            <div class="CCCD">CCCD: 042204001006</div>
+                            <div class="main_listroom_item_line"></div>
+                            <div class="main_listroom_item_status">Đã Nhận Phòng</div>
+                            
+                            <div class="main_listroom_item_check">
+                                <div class="main_listroom_item_checkin">
+                                <i class="fa-regular fa-clock"></i>
+                                    Ngày nhận phòng: 2004-10-26
+                                </div>
+                                <div class="main_listroom_item_checkout">
+                                <i class="fa-regular fa-clock"></i>
+                                        Ngày trả phòng: 2004-10-30
+                                </div>
+                            </div>
+                            <div class="main_listroom_item_timecheckin">Thời gian nhận phòng :10h25p</div>
+                            <div class="main_listroom_item_button">
+                                <div class="main_listroom_item_button_checkin">Nhận Phòng</div>
+                                <div class="main_listroom_item_button_checkout">Trả Phòng</div>
+
+                            </div>
+                        </div>
+
+                        <div class="main_listroom_item" draggable="true">
+                            <div class="main_listroom_item_header">
+                                <div class="main_listroom_item_header_text">Phòng 202</div>
+                                <div class="main_listroom_item_header_icon" >
+                                    <i class="fa-regular fa-pen-to-square"></i>
+                                    <i class="fa-solid fa-trash"></i>
+                                </div>
+                            </div>
+                            <div class="main_listroom_item_Name">Nguyễn Duy Hải</div>
+                            <div class="CCCD">CCCD: 042204001006</div>
+                            <div class="main_listroom_item_line"></div>
+                            <div class="main_listroom_item_status">Đã Nhận Phòng</div>
+                            
+                            <div class="main_listroom_item_check">
+                                <div class="main_listroom_item_checkin">
+                                <i class="fa-regular fa-clock"></i>
+                                    Ngày nhận phòng: 2004-10-26
+                                </div>
+                                <div class="main_listroom_item_checkout">
+                                <i class="fa-regular fa-clock"></i>
+                                        Ngày trả phòng: 2004-10-30
+                                </div>
+                            </div>
+                            <div class="main_listroom_item_timecheckin">Thời gian nhận phòng :10h25p</div>
+                            <div class="main_listroom_item_button">
+                                <div class="main_listroom_item_button_checkin">Nhận Phòng</div>
+                                <div class="main_listroom_item_button_checkout">Trả Phòng</div>
+
+                            </div>
+                        </div>
+
+                        <div class="main_listroom_item" draggable="true">
+                            <div class="main_listroom_item_header">
+                                <div class="main_listroom_item_header_text">Phòng 203</div>
+                                <div class="main_listroom_item_header_icon" >
+                                    <i class="fa-regular fa-pen-to-square"></i>
+                                    <i class="fa-solid fa-trash"></i>
+                                </div>
+                            </div>
+                            <div class="main_listroom_item_Name">Nguyễn Duy Hải</div>
+                            <div class="CCCD">CCCD: 042204001006</div>
+                            <div class="main_listroom_item_line"></div>
+                            <div class="main_listroom_item_status">Đã Nhận Phòng</div>
+                            
+                            <div class="main_listroom_item_check">
+                                <div class="main_listroom_item_checkin">
+                                <i class="fa-regular fa-clock"></i>
+                                    Ngày nhận phòng: 2004-10-26
+                                </div>
+                                <div class="main_listroom_item_checkout">
+                                <i class="fa-regular fa-clock"></i>
+                                        Ngày trả phòng: 2004-10-30
+                                </div>
+                            </div>
+                            <div class="main_listroom_item_timecheckin">Thời gian nhận phòng :10h25p</div>
+                            <div class="main_listroom_item_button">
+                                <div class="main_listroom_item_button_checkin">Nhận Phòng</div>
+                                <div class="main_listroom_item_button_checkout">Trả Phòng</div>
+
+                            </div>
+                        </div>
+                        <div class="main_listroom_item" draggable="true">
+                            <div class="main_listroom_item_header">
+                                <div class="main_listroom_item_header_text">Phòng 204</div>
+                                <div class="main_listroom_item_header_icon" >
+                                    <i class="fa-regular fa-pen-to-square"></i>
+                                    <i class="fa-solid fa-trash"></i>
+                                </div>
+                            </div>
+                            <div class="main_listroom_item_Name">Nguyễn Duy Hải</div>
+                            <div class="CCCD">CCCD: 042204001006</div>
+                            <div class="main_listroom_item_line"></div>
+                            <div class="main_listroom_item_status">Đã Nhận Phòng</div>
+                            
+                            <div class="main_listroom_item_check">
+                                <div class="main_listroom_item_checkin">
+                                <i class="fa-regular fa-clock"></i>
+                                    Ngày nhận phòng: 2004-10-26
+                                </div>
+                                <div class="main_listroom_item_checkout">
+                                <i class="fa-regular fa-clock"></i>
+                                        Ngày trả phòng: 2004-10-30
+                                </div>
+                            </div>
+                            <div class="main_listroom_item_timecheckin">Thời gian nhận phòng :10h25p</div>
+                            <div class="main_listroom_item_button">
+                                <div class="main_listroom_item_button_checkin">Nhận Phòng</div>
+                                <div class="main_listroom_item_button_checkout">Trả Phòng</div>
+
+                            </div>
+                        </div>
+                        <div class="main_listroom_item" draggable="true">
+                            <div class="main_listroom_item_header">
+                                <div class="main_listroom_item_header_text">Phòng 205</div>
+                                <div class="main_listroom_item_header_icon" >
+                                    <i class="fa-regular fa-pen-to-square"></i>
+                                    <i class="fa-solid fa-trash"></i>
+                                </div>
+                            </div>
+                            <div class="main_listroom_item_Name">Nguyễn Duy Hải</div>
+                            <div class="CCCD">CCCD: 042204001006</div>
+                            <div class="main_listroom_item_line"></div>
+                            <div class="main_listroom_item_status">Đã Nhận Phòng</div>
+                            
+                            <div class="main_listroom_item_check">
+                                <div class="main_listroom_item_checkin">
+                                <i class="fa-regular fa-clock"></i>
+                                    Ngày nhận phòng: 2004-10-26
+                                </div>
+                                <div class="main_listroom_item_checkout">
+                                <i class="fa-regular fa-clock"></i>
+                                        Ngày trả phòng: 2004-10-30
+                                </div>
+                            </div>
+                            <div class="main_listroom_item_timecheckin">Thời gian nhận phòng :10h25p</div>
+                            <div class="main_listroom_item_button">
+                                <div class="main_listroom_item_button_checkin">Nhận Phòng</div>
+                                <div class="main_listroom_item_button_checkout">Trả Phòng</div>
+
+                            </div>
+                        </div>
+                    
+                    </div>
+                    <div class="main_listroom_items_3">
+                        <div class="main_listroom_item" draggable="true">
+                            <div class="main_listroom_item_header">
+                                <div class="main_listroom_item_header_text">Phòng 301</div>
+                                <div class="main_listroom_item_header_icon" >
+                                    <i class="fa-regular fa-pen-to-square"></i>
+                                    <i class="fa-solid fa-trash"></i>
+                                </div>
+                            </div>
+                            <div class="main_listroom_item_Name">Nguyễn Duy Hải</div>
+                            <div class="CCCD">CCCD: 042204001006</div>
+                            <div class="main_listroom_item_line"></div>
+                            <div class="main_listroom_item_status">Đã Nhận Phòng</div>
+                            
+                            <div class="main_listroom_item_check">
+                                <div class="main_listroom_item_checkin">
+                                <i class="fa-regular fa-clock"></i>
+                                    Ngày nhận phòng: 2004-10-26
+                                </div>
+                                <div class="main_listroom_item_checkout">
+                                <i class="fa-regular fa-clock"></i>
+                                        Ngày trả phòng: 2004-10-30
+                                </div>
+                            </div>
+                            <div class="main_listroom_item_timecheckin">Thời gian nhận phòng :10h25p</div>
+                            <div class="main_listroom_item_button">
+                                <div class="main_listroom_item_button_checkin">Nhận Phòng</div>
+                                <div class="main_listroom_item_button_checkout">Trả Phòng</div>
+
+                            </div>
+                        </div>
+
+                        <div class="main_listroom_item" draggable="true">
+                            <div class="main_listroom_item_header">
+                                <div class="main_listroom_item_header_text">Phòng 302</div>
+                                <div class="main_listroom_item_header_icon" >
+                                    <i class="fa-regular fa-pen-to-square"></i>
+                                    <i class="fa-solid fa-trash"></i>
+                                </div>
+                            </div>
+                            <div class="main_listroom_item_Name">Nguyễn Duy Hải</div>
+                            <div class="CCCD">CCCD: 042204001006</div>
+                            <div class="main_listroom_item_line"></div>
+                            <div class="main_listroom_item_status">Đã Nhận Phòng</div>
+                            
+                            <div class="main_listroom_item_check">
+                                <div class="main_listroom_item_checkin">
+                                <i class="fa-regular fa-clock"></i>
+                                    Ngày nhận phòng: 2004-10-26
+                                </div>
+                                <div class="main_listroom_item_checkout">
+                                <i class="fa-regular fa-clock"></i>
+                                        Ngày trả phòng: 2004-10-30
+                                </div>
+                            </div>
+                            <div class="main_listroom_item_timecheckin">Thời gian nhận phòng :10h25p</div>
+                            <div class="main_listroom_item_button">
+                                <div class="main_listroom_item_button_checkin">Nhận Phòng</div>
+                                <div class="main_listroom_item_button_checkout">Trả Phòng</div>
+
+                            </div>
+                        </div>
+
+                        <div class="main_listroom_item" draggable="true">
+                            <div class="main_listroom_item_header">
+                                <div class="main_listroom_item_header_text">Phòng 303</div>
+                                <div class="main_listroom_item_header_icon" >
+                                    <i class="fa-regular fa-pen-to-square"></i>
+                                    <i class="fa-solid fa-trash"></i>
+                                </div>
+                            </div>
+                            <div class="main_listroom_item_Name">Nguyễn Duy Hải</div>
+                            <div class="CCCD">CCCD: 042204001006</div>
+                            <div class="main_listroom_item_line"></div>
+                            <div class="main_listroom_item_status">Đã Nhận Phòng</div>
+                            
+                            <div class="main_listroom_item_check">
+                                <div class="main_listroom_item_checkin">
+                                <i class="fa-regular fa-clock"></i>
+                                    Ngày nhận phòng: 2004-10-26
+                                </div>
+                                <div class="main_listroom_item_checkout">
+                                <i class="fa-regular fa-clock"></i>
+                                        Ngày trả phòng: 2004-10-30
+                                </div>
+                            </div>
+                            <div class="main_listroom_item_timecheckin">Thời gian nhận phòng :10h25p</div>
+                            <div class="main_listroom_item_button">
+                                <div class="main_listroom_item_button_checkin">Nhận Phòng</div>
+                                <div class="main_listroom_item_button_checkout">Trả Phòng</div>
+
+                            </div>
+                        </div>
+                        <div class="main_listroom_item" draggable="true">
+                            <div class="main_listroom_item_header">
+                                <div class="main_listroom_item_header_text">Phòng 304</div>
+                                <div class="main_listroom_item_header_icon" >
+                                    <i class="fa-regular fa-pen-to-square"></i>
+                                    <i class="fa-solid fa-trash"></i>
+                                </div>
+                            </div>
+                            <div class="main_listroom_item_Name">Nguyễn Duy Hải</div>
+                            <div class="CCCD">CCCD: 042204001006</div>
+                            <div class="main_listroom_item_line"></div>
+                            <div class="main_listroom_item_status">Đã Nhận Phòng</div>
+                            
+                            <div class="main_listroom_item_check">
+                                <div class="main_listroom_item_checkin">
+                                <i class="fa-regular fa-clock"></i>
+                                    Ngày nhận phòng: 2004-10-26
+                                </div>
+                                <div class="main_listroom_item_checkout">
+                                <i class="fa-regular fa-clock"></i>
+                                        Ngày trả phòng: 2004-10-30
+                                </div>
+                            </div>
+                            <div class="main_listroom_item_timecheckin">Thời gian nhận phòng :10h25p</div>
+                            <div class="main_listroom_item_button">
+                                <div class="main_listroom_item_button_checkin">Nhận Phòng</div>
+                                <div class="main_listroom_item_button_checkout">Trả Phòng</div>
+
+                            </div>
+                        </div>
+                        <div class="main_listroom_item" draggable="true">
+                            <div class="main_listroom_item_header">
+                                <div class="main_listroom_item_header_text">Phòng 305</div>
+                                <div class="main_listroom_item_header_icon" >
+                                    <i class="fa-regular fa-pen-to-square"></i>
+                                    <i class="fa-solid fa-trash"></i>
+                                </div>
+                            </div>
+                            <div class="main_listroom_item_Name">Nguyễn Duy Hải</div>
+                            <div class="CCCD">CCCD: 042204001006</div>
+                            <div class="main_listroom_item_line"></div>
+                            <div class="main_listroom_item_status">Đã Nhận Phòng</div>
+                            
+                            <div class="main_listroom_item_check">
+                                <div class="main_listroom_item_checkin">
+                                <i class="fa-regular fa-clock"></i>
+                                    Ngày nhận phòng: 2004-10-26
+                                </div>
+                                <div class="main_listroom_item_checkout">
+                                <i class="fa-regular fa-clock"></i>
+                                        Ngày trả phòng: 2004-10-30
+                                </div>
+                            </div>
+                            <div class="main_listroom_item_timecheckin">Thời gian nhận phòng :10h25p</div>
+                            <div class="main_listroom_item_button">
+                                <div class="main_listroom_item_button_checkin">Nhận Phòng</div>
+                                <div class="main_listroom_item_button_checkout">Trả Phòng</div>
+
+                            </div>
+                        </div>
+                    
+                    </div>
+                    <div class="main_listroom_items_4">
+                        <div class="main_listroom_item" draggable="true">
+                            <div class="main_listroom_item_header">
+                                <div class="main_listroom_item_header_text">Phòng 401</div>
+                                <div class="main_listroom_item_header_icon" >
+                                    <i class="fa-regular fa-pen-to-square"></i>
+                                    <i class="fa-solid fa-trash"></i>
+                                </div>
+                            </div>
+                            <div class="main_listroom_item_Name">Nguyễn Duy Hải</div>
+                            <div class="CCCD">CCCD: 042204001006</div>
+                            <div class="main_listroom_item_line"></div>
+                            <div class="main_listroom_item_status">Phòng Sẵn Sàng</div>
+                            
+                            <div class="main_listroom_item_check">
+                                <div class="main_listroom_item_checkin">
+                                <i class="fa-regular fa-clock"></i>
+                                    Ngày nhận phòng: 2004-10-26
+                                </div>
+                                <div class="main_listroom_item_checkout">
+                                <i class="fa-regular fa-clock"></i>
+                                        Ngày trả phòng: 2004-10-30
+                                </div>
+                            </div>
+                            <div class="main_listroom_item_timecheckin">Thời gian nhận phòng :10h25p</div>
+                            <div class="main_listroom_item_button">
+                                <div class="main_listroom_item_button_checkin">Nhận Phòng</div>
+                                <div class="main_listroom_item_button_checkout">Trả Phòng</div>
+
+                            </div>
+                        </div>
+
+                        <div class="main_listroom_item" draggable="true">
+                            <div class="main_listroom_item_header">
+                                <div class="main_listroom_item_header_text">Phòng 402</div>
+                                <div class="main_listroom_item_header_icon" >
+                                    <i class="fa-regular fa-pen-to-square"></i>
+                                    <i class="fa-solid fa-trash"></i>
+                                </div>
+                            </div>
+                            <div class="main_listroom_item_Name">Nguyễn Duy Hải</div>
+                            <div class="CCCD">CCCD: 042204001006</div>
+                            <div class="main_listroom_item_line"></div>
+                            <div class="main_listroom_item_status">Phòng Sẵn Sàng</div>
+                            
+                            <div class="main_listroom_item_check">
+                                <div class="main_listroom_item_checkin">
+                                <i class="fa-regular fa-clock"></i>
+                                    Ngày nhận phòng: 2004-10-26
+                                </div>
+                                <div class="main_listroom_item_checkout">
+                                <i class="fa-regular fa-clock"></i>
+                                        Ngày trả phòng: 2004-10-30
+                                </div>
+                            </div>
+                            <div class="main_listroom_item_timecheckin">Thời gian nhận phòng :10h25p</div>
+                            <div class="main_listroom_item_button">
+                                <div class="main_listroom_item_button_checkin">Nhận Phòng</div>
+                                <div class="main_listroom_item_button_checkout">Trả Phòng</div>
+
+                            </div>
+                        </div>
+
+                        <div class="main_listroom_item" draggable="true">
+                            <div class="main_listroom_item_header">
+                                <div class="main_listroom_item_header_text">Phòng 403</div>
+                                <div class="main_listroom_item_header_icon" >
+                                    <i class="fa-regular fa-pen-to-square"></i>
+                                    <i class="fa-solid fa-trash"></i>
+                                </div>
+                            </div>
+                            <div class="main_listroom_item_Name">Nguyễn Duy Hải</div>
+                            <div class="CCCD">CCCD: 042204001006</div>
+                            <div class="main_listroom_item_line"></div>
+                            <div class="main_listroom_item_status">Phòng Sẵn Sàng</div>
+                            
+                            <div class="main_listroom_item_check">
+                                <div class="main_listroom_item_checkin">
+                                <i class="fa-regular fa-clock"></i>
+                                    Ngày nhận phòng: 2004-10-26
+                                </div>
+                                <div class="main_listroom_item_checkout">
+                                <i class="fa-regular fa-clock"></i>
+                                        Ngày trả phòng: 2004-10-30
+                                </div>
+                            </div>
+                            <div class="main_listroom_item_timecheckin">Thời gian nhận phòng :10h25p</div>
+                            <div class="main_listroom_item_button">
+                                <div class="main_listroom_item_button_checkin">Nhận Phòng</div>
+                                <div class="main_listroom_item_button_checkout">Trả Phòng</div>
+
+                            </div>
+                        </div>
+                        <div class="main_listroom_item" draggable="true">
+                            <div class="main_listroom_item_header">
+                                <div class="main_listroom_item_header_text">Phòng 404</div>
+                                <div class="main_listroom_item_header_icon" >
+                                    <i class="fa-regular fa-pen-to-square"></i>
+                                    <i class="fa-solid fa-trash"></i>
+                                </div>
+                            </div>
+                            <div class="main_listroom_item_Name">Nguyễn Duy Hải</div>
+                            <div class="CCCD">CCCD: 042204001006</div>
+                            <div class="main_listroom_item_line"></div>
+                            <div class="main_listroom_item_status">Phòng Sẵn Sàng</div>
+                            
+                            <div class="main_listroom_item_check">
+                                <div class="main_listroom_item_checkin">
+                                <i class="fa-regular fa-clock"></i>
+                                    Ngày nhận phòng: 2004-10-26
+                                </div>
+                                <div class="main_listroom_item_checkout">
+                                <i class="fa-regular fa-clock"></i>
+                                        Ngày trả phòng: 2004-10-30
+                                </div>
+                            </div>
+                            <div class="main_listroom_item_timecheckin">Thời gian nhận phòng :10h25p</div>
+                            <div class="main_listroom_item_button">
+                                <div class="main_listroom_item_button_checkin">Nhận Phòng</div>
+                                <div class="main_listroom_item_button_checkout">Trả Phòng</div>
+
+                            </div>
+                        </div>
+                        <div class="main_listroom_item" draggable="true">
+                            <div class="main_listroom_item_header">
+                                <div class="main_listroom_item_header_text">Phòng 405</div>
+                                <div class="main_listroom_item_header_icon" >
+                                    <i class="fa-regular fa-pen-to-square"></i>
+                                    <i class="fa-solid fa-trash"></i>
+                                </div>
+                            </div>
+                            <div class="main_listroom_item_Name">Nguyễn Duy Hải</div>
+                            <div class="CCCD">CCCD: 042204001006</div>
+                            <div class="main_listroom_item_line"></div>
+                            <div class="main_listroom_item_status">Phòng Sẵn Sàng</div>
+                            
+                            <div class="main_listroom_item_check">
+                                <div class="main_listroom_item_checkin">
+                                <i class="fa-regular fa-clock"></i>
+                                    Ngày nhận phòng: 2004-10-26
+                                </div>
+                                <div class="main_listroom_item_checkout">
+                                <i class="fa-regular fa-clock"></i>
+                                        Ngày trả phòng: 2004-10-30
+                                </div>
+                            </div>
+                            <div class="main_listroom_item_timecheckin">Thời gian nhận phòng :10h25p</div>
+                            <div class="main_listroom_item_button">
+                                <div class="main_listroom_item_button_checkin">Nhận Phòng</div>
+                                <div class="main_listroom_item_button_checkout">Trả Phòng</div>
+
+                            </div>
+                        </div>
+                    
+                    </div>
+                </div>
+
+            </div>
+            <div class="main_book">
+                <div class="main_book_room">
+                    <div class="main_book_room_header">Thông tin Phòng</div>
+                </div>
+                <div class="main_book_line"></div>
+                <div class="main_book_client">
+                    <div class="main_book_client_header">Thông tin Khách Hàng</div>
+                </div>
+            </div>
+        </div>
+    </div>
+      
+    </div>
+    <script src="nv.js"></script>
+</body>
+</html>

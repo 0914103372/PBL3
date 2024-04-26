@@ -12,8 +12,11 @@
 .container{
     width: 100%;
     position: relative;
-   
+  
 }
+
+    
+
 .header{
     width: 100%;
     height: 80px;
@@ -45,21 +48,24 @@
 }
 .header_items_right .box{
     color: white;
-    padding: 5px 15px;
-    background-color: rgb(224, 159, 79);
+    padding: 4px 13px;
+    background-color: #00554C;
     border: 1px;
     border-style: solid;
 }
 .header_item:hover{
 
     cursor: pointer;
+    color:#c99246;
 }
 .header_items_right .box:hover{
-    color: #00554C;
+    background-color:#c99246;
+    color: white;
+    transition-duration: 0.5s;
 }
 .body1{
     width: 100%;
-    height:55vw;
+    height:100vh;
     background-image: url("https://nestahotel.com.vn/uploads/content/Hotel%20&%20Spa/Overview_4.jpg");
     background-size: cover;
 }
@@ -305,9 +311,42 @@
     margin-top: 400px;
     height:  500px;
     background-color: #00554C;
+    font-family: "Be Vietnam Pro", sans-serif;
+    color:white;
+    padding: 3vw 15vw;    
+    font-weight: 300;
+    display: flex;
+    gap: 50px;
 }
 .superend{
     width: 100%;
     height: 100px;
     background-color: black;
+}
+
+.end_column_item,.end_column_logo{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+#logo{
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+.end_column_item i{
+    font-size: 24px;
+}
+.end_column_logo i{
+    font-size: 28px;
+}
+.end_column_header{
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-top: 65px;
+}
+.end_column{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
