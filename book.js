@@ -148,3 +148,11 @@ function buttonsubmit(){
     })
 }
 buttonsubmit()
+//add su kien click tim kiem
+function buttonfind(){
+    document.querySelector(".buttonfind").addEventListener("click",()=>{
+        document.querySelector(".find").style.display =`flex`
+        document.querySelector(".date").style.display =`none`
+    })
+}
+buttonfind()
