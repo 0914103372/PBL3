@@ -176,7 +176,7 @@
 }
 .main_listroom{
    width: 100%;
-   display: none;
+   display: flex;
    flex-direction: column;
     
 }
@@ -523,6 +523,7 @@
     border-radius: 10px;
     overflow-y: auto;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    display: none;
 }
 .main_QLTP_header{
     display: flex;

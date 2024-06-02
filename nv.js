@@ -53,13 +53,16 @@ function checkout(floors,x,i)
         buttoncheckout[x].addEventListener("click",()=>{
                 confirm.style.display =`flex`
                 background.style.display =`flex`
+                confirm.querySelector('.confirm_text').innerHTML="Xác Nhận Đã Thanh Toán"
                 document.querySelector(".confirm_button_ok").addEventListener("click",()=>{
                     status[x].innerHTML = "Phòng Sẵn Sàng" 
                     confirm.style.display =`none`
                     background.style.display =`none`
                     room[x].innerHTML=checkoutfill
                     floors.querySelectorAll(".main_listroom_item_button_checkout")[x].style.opacity=`0`
+
                     checkin()
+                    xemthongtinphong()
                 })
                 document.querySelector(".confirm_button_cancel").addEventListener('click',()=>{
                     confirm.style.display =`none`
@@ -68,6 +71,7 @@ function checkout(floors,x,i)
                 
 
             })
+            
      }
        
 
@@ -129,9 +133,32 @@ function eventlistroom()
 {
     document.querySelector(".listroom").addEventListener("click",()=>{
         document.querySelector(".main_listroom").style.display = `flex`
+        document.querySelector(".main_QLTP").style.display =`none`
+        document.querySelector(".main_book").style.display = `none`
     })
 }
 eventlistroom()
+////gansukienbuttonbookroom
+function eventbookroom()
+{
+    document.querySelector(".book").addEventListener("click",()=>{
+        document.querySelector(".main_listroom").style.display = `none`
+        document.querySelector(".main_QLTP").style.display =`none`
+        document.querySelector(".main_book").style.display = `flex`
+    })
+}
+//
+eventbookroom()
+function eventquanlytraroom()
+{
+    document.querySelector(".QLTP").addEventListener("click",()=>{
+        document.querySelector(".main_listroom").style.display = `none`
+        document.querySelector(".main_QLTP").style.display =`block`
+        document.querySelector(".main_book").style.display = `none`
+    })
+}
+eventquanlytraroom()
+//
 function arrow(){
     let arrow = document.querySelector(".arrow")
     let peoplepicker = document.querySelector(".peoplepicker")
@@ -212,13 +239,14 @@ function buttonsubmit(){
 buttonsubmit()
 //addsukienxemthongtin
 function xemthongtinphong()
-{
+{   
+    let pentosquare = document.querySelectorAll(".fa-pen-to-square")
     let listroom = document.querySelectorAll(".main_listroom_item")
     let ifmroomheader = document.querySelector(".ifmroom_header")
 
-    listroom.forEach((x)=>{
+    pentosquare.forEach((x,i)=>{
         x.addEventListener("click",()=>{
-            let textheader = x.querySelector(".main_listroom_item_header_text").textContent
+            let textheader = listroom[i].querySelector(".main_listroom_item_header_text").textContent
             console.log(textheader)
             ifmroomheader.innerHTML = `${textheader}`
             document.querySelector(".ifmroom").style.display =`block`
